@@ -154,7 +154,7 @@ npm run build
 npm start
 ```
 
-The Node server listens on **127.0.0.1:3000** by default. Put it behind an HTTPS reverse proxy, or adapt its listening address to your hosting platform's requirements. Supply environment variables through your hosting provider's secret configuration.
+The Node server listens on **0.0.0.0** using the `PORT` environment variable (default `3000`), compatible with Render Web Services. Use HTTPS through your hosting provider or reverse proxy. Supply environment variables through your hosting provider's secret configuration.
 
 **Static hosting alone is insufficient:** the submission endpoint requires a Node.js runtime with access to MongoDB.
 
