@@ -1,0 +1,23 @@
+{
+  "name": "indian-diaspora",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js",
+    "test": "node --test server/submissions.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "lucide-react": "^0.468.0",
+    "mongodb": "^7.7.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
